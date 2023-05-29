@@ -1,0 +1,22 @@
+Ejercicio 1
+
+let variable = 8;
+console.log(typeof variable);
+
+
+Ejercicio 2
+const resultado = function(a) {
+  return typeof a;
+};
+
+let a = 'queso';
+console.log(resultado('queso'));
+
+
+function tipoDato(a) {
+  console.log(typeof a);
+}
+let a = 'queso';
+tipoDato(a);
+
+

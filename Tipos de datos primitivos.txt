@@ -1,0 +1,52 @@
+Ejercicio 1: Coversion de tipos
+
+let numero1 ;
+let numero2;
+
+numero1 = prompt("Ingrese el primer numero");
+numero2 = prompt("Ingrese el segundo numero");
+
+
+const transformacion = function(a){
+
+switch(a){
+    case 'uno':
+        return  1;
+        break;
+ case 'dos':
+       return 2;
+        break;
+ case 'tres':
+        return 3;
+        break;
+ case 'cuatro':
+        return 4;
+        break;
+ case 'cinco':
+        return 5;
+        break;
+ case 'seis':
+        return 6;
+        break; 
+ case 'siete':
+        return 7;
+        break;
+ case 'ocho':
+        return 8;
+        break;
+ case default :
+	return 0;
+}
+}
+let numero1f = transformacion (numero1);
+let numero2f = transformacion (numero2);
+
+console.log(numero1f + numero2f);
+
+
+Ejercicio 2: Verificacion de tipo de dato
+
+let valor;
+
+valor = ("Ingrese un valor");
+console.log(typeof valor);

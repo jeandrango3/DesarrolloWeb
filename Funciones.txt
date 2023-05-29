@@ -1,0 +1,44 @@
+Ejercicio 1
+function suma(a, b) {
+  return a + b;
+}
+
+console.log(suma(2, 3));
+
+
+
+Ejercicio 2
+const areaTriangulo = function(a, b) {
+  return (a * b)/2;
+};
+
+console.log(areaTriangulo (3, 4));
+
+
+
+Ejercicio 1
+var miNombre = "Diego"
+
+function nombre(usuario) {
+    var miNombre = usuario;
+    console.log(miNombre); 
+}
+
+nombre("Oscar");
+
+
+console.log(`Hola ${miNombre}, cómo estás?`);
+
+
+Ejercicio 2
+var miNombre = "Diego"
+
+function nombre(usuario) {
+    var miNombre = usuario;
+    console.log(miNombre); 
+}
+
+nombre("Diego");
+
+
+console.log(`Hola ${miNombre}, cómo estás?`);
